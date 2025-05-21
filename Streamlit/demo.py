@@ -28,7 +28,7 @@ df_iris = pd.read_csv(csv_path)
 
 st.dataframe(df_iris)
 
-st.markdown("Now let's make an Altair plot for another example for office hours.")
+st.markdown("Now let's make an Altair plot for another example for office hours today.")
 
 plot = alt.Chart(df_iris).mark_point().encode(
   # Map the sepalLength to x-axis
